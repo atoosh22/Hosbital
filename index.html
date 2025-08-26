@@ -34,16 +34,28 @@
     <!-- End Hero -->
 
     <!-- form -->
-     <div class="form">
-        <form action="">
-           <div class="items">
-             <input type="text" placeholder="Enter Name">
-            <input type="text" placeholder="Enter Name">
-            <input type="text" placeholder="Enter Name">
-            <input type="text" placeholder="Enter Name">
-           </div>
-        </form>
-     </div>
+     <form action="#" method="post">
+    <!-- Name input -->
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <!-- Select Doctor -->
+    <select id="doctor" name="doctor" required>
+      <option value="" disabled selected>--Choose Doctor--</option>
+      <option value="dr_ali">Dr. Ali</option>
+      <option value="dr_amina">Dr. Amina</option>
+      <option value="dr_mohamed">Dr. Mohamed</option>
+    </select>
+    <!-- Select Department -->
+    <select id="department" name="department" required>
+      <option value="" disabled selected>--Choose Department--</option>
+      <option value="cardiology">Cardiology</option>
+      <option value="neurology">Neurology</option>
+      <option value="orthopedics">Orthopedics</option>
+    </select>
+  
+
+    <!-- Submit Button -->
+    <button class="Submit" type="submit">Submit Now</button>
+  </form>
 
 </body>
 </html>

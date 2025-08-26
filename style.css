@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #EDF2F6;
+}
 nav{
     background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+   
+    padding: 12px;
     position: sticky;
     top: 0;
 }
@@ -63,16 +67,22 @@ span{
 
 /* form */
 form{
-    background-color: #EDF2F6;
-    padding-top: 4rem;
-}
-.items{
+    width: 70%;
     background-color: #fff;
-    width: 65%;
-    padding: 20px;
-    margin-left: 20%;
+    padding-left:6rem;
+    margin-left: 12rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    
 }
-input{
-    padding: 10px;
+input,select{
+    padding: 12px;
     margin: 8px;
+}
+.Submit{
+    padding:10px 20px;
+    background: linear-gradient(to right, #1838AE, #09B9E4) 
+}
+.Submit,button:hover{
+    background: linear-gradient(to right, #09B9E4, #1838AE);
 }
