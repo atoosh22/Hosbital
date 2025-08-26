@@ -42,7 +42,7 @@ nav ul li a:hover{
 }
 .Hero-img{
     width: 40rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 .Hero-text{
     font-size: 4rem;
@@ -85,4 +85,20 @@ input,select{
 }
 .Submit,button:hover{
     background: linear-gradient(to right, #09B9E4, #1838AE);
+}
+
+
+/* services */
+.services{
+    text-align: center;
+    margin-top: 6rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.about-img{
+    display: flex;
 }
