@@ -129,8 +129,24 @@ input,select{
 
 /* appointment */
 .appointment{
-    background: #E9EFFA;
+    background: #fff;
     margin-top: 8rem;
     display: flex;
     justify-content: space-around;
+}
+.text{
+    margin-top: 8rem;
+    margin-right: 8rem;
+}
+.links{
+    background-image: url(img/footer-bg.png);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.links .Our-links ul li {
+    list-style: none;
+    font-size: 20px;
+ 
+    
 }
