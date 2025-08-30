@@ -143,10 +143,23 @@ input,select{
     display: flex;
     justify-content: space-between;
     margin-top: 6rem;
+    margin: 20px;
 }
 .links .Our-links ul li {
     list-style: none;
     font-size: 20px;
- 
+
     
+}
+.links .Our-links ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: #3e3e3e;
+    font-style: normal;
+}
+.footer{
+    background-color: #D4E4FA;
+    text-align: center;
+    color: #3e3e3e;
+    padding: 10px;
 }
